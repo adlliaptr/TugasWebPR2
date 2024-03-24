@@ -1,60 +1,111 @@
 /* Gaya untuk kontainer About Me */
 .container {
-    background-color: #f8c4ff; /* Warna latar belakang */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(239, 144, 144, 0.678);
-    text-align: center; /* Teks terpusat */
-}
-  
-  /* Gaya untuk judul About Me */
-  h2 {
-    color: #333; /* Warna teks judul */
-}
-  /* Gaya untuk kontainer Skill */
-.skill {
-    background-color: #f8f9fa; /* Warna latar belakang */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-  
-  /* Gaya untuk judul Skill */
-  .skill h2 {
-    color: #333; /* Warna teks judul */
-    text-align: center; /* Teks terpusat */
-}
-  
-  /* Gaya untuk daftar skill */
-  .skill-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-  
-  /* Gaya untuk item skill */
-  .skill-item {
-    margin: 10px;
-    text-align: center;
-}
-  
-  /* Gaya untuk nama skill */
-  .skill-item h3 {
-    color: #007bff; /* Warna teks nama skill */
-}
-  
-  /* Gaya untuk progress bar */
-  .progress {
-    height: 25px;
-    margin-top: 5px;
-}
-  
-  /* Gaya untuk progress bar dalam */
-  .progress-bar {
-    background-color: #007bff; /* Warna latar belakang progress bar */
-    color: #fff; /* Warna teks di dalam progress bar */
+  background-color: #f8c4ff; /* Warna latar belakang */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(239, 144, 144, 0.678);
+  text-align: center; /* Teks terpusat */
 }
 
-.carousel-inner{
+/* Gaya untuk judul About Me */
+h2 {
+  color: #333; /* Warna teks judul */
+}
+/* Gaya untuk kontainer Skill */
+.skill {
+  background-color: #f8f9fa; /* Warna latar belakang */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk judul Skill */
+.skill h2 {
+  color: #333; /* Warna teks judul */
+  text-align: center; /* Teks terpusat */
+}
+
+/* Gaya untuk daftar skill */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Gaya untuk item skill */
+.skill-item {
+  margin: 10px;
+  text-align: center;
+}
+
+/* Gaya untuk nama skill */
+.skill-item h3 {
+  color: #007bff; /* Warna teks nama skill */
+}
+
+/* Gaya untuk progress bar */
+.progress {
+  height: 25px;
+  margin-top: 5px;
+}
+
+/* Gaya untuk progress bar dalam */
+.progress-bar {
+  background-color: #007bff; /* Warna latar belakang progress bar */
+  color: #fff; /* Warna teks di dalam progress bar */
+}
+
+.carousel-inner {
   padding-top: 50px;
+}
+
+/* -----------contact--------- */
+
+/* Gaya untuk kontainer Contact */
+#contact {
+  background-color: #f0f0f0; /* Warna latar belakang */
+  padding: 50px 0; /* Padding atas dan bawah */
+  text-align: center; /* Teks terpusat */
+}
+
+/* Gaya untuk judul Contact */
+#contact h1 {
+  color: #333; /* Warna teks judul */
+}
+
+/* Gaya untuk subjudul Contact */
+#contact span {
+  color: #007bff; /* Warna teks subjudul */
+}
+
+/* Gaya untuk form kontak */
+#contact-form {
+  max-width: 500px; /* Lebar maksimum form */
+  margin: auto; /* Membuat form berada di tengah */
+}
+
+/* Gaya untuk input dan textarea */
+#contact-form input,
+#contact-form textarea {
+  width: 100%; /* Lebar input dan textarea */
+  margin-bottom: 20px; /* Margin bawah */
+  padding: 10px; /* Padding */
+  border: 2px solid #ddd; /* Garis border */
+  border-radius: 5px; /* Border radius */
+}
+
+/* Gaya untuk tombol kirim */
+#contact-form #button {
+  width: 100%; /* Lebar tombol */
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  border: none; /* Tanpa border */
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Border radius */
+  cursor: pointer; /* Kursor jadi pointer */
+}
+
+/* Gaya untuk pesan kesalahan */
+#error-msg {
+  color: red; /* Warna teks pesan kesalahan */
 }

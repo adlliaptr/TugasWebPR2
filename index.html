@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">My Portofolio</a>
+        <a class="navbar-brand" href="#">Juventia Adelia</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -72,12 +72,12 @@
             <h2>About Me</h2>
             <img src="" alt="" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              vitae turpis eget velit elementum auctor. Duis sit amet eros nec
-              ipsum convallis sagittis. Morbi sodales quam in felis ullamcorper
-              dictum. Nullam non velit nec felis auctor accumsan. In ultricies
-              eget magna nec lobortis. Proin sollicitudin felis quis lorem
-              ultrices dictum.
+              Hello!! I am Adel, a student pursuing my undergraduate degree at Mulawarman University, 
+              with a focus on Information Systems. My interest in the world of technology and information has guided my academic and professional journey.
+
+              As an active student, I have been involved in collaborative projects that involve solving real challenges in the world of information technology.
+               I have also undergone internships at several technology companies, 
+               gaining valuable insights into the industry and putting into practice the knowledge I learned in the classroom.
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@
             <h2>Hobby</h2>
             <div class="skill-list">
               <div class="skill-item">
-                <h3>HTML</h3>
+                <h3>Nyanyi</h3>
                 <div class="progress">
                   <div
                     class="progress-bar"
@@ -106,7 +106,7 @@
                 </div>
               </div>
               <div class="skill-item">
-                <h3>CSS</h3>
+                <h3>Berenang</h3>
                 <div class="progress">
                   <div
                     class="progress-bar"
@@ -151,6 +151,20 @@
           data-bs-slide-to="2"
           aria-label="Slide 3"
           ></button>
+          </button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+          ></button>
+          </button>
+          <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active justify-content-center">
@@ -181,6 +195,14 @@
               <p>SMAN 2 Balikpapan Utara</p>
             </div>
           </div>
+          <div class="carousel-item">
+            <img src="image/UNMULL.jpg" class="d-block" style="width: 800px" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2022-NOW</h5>
+              <p>Mulawarman University</p>
+            </div>
+          </div>
+          
         </div>
         <button
         class="carousel-control-prev"
@@ -239,9 +261,23 @@
       </div>
     </div>
   </section>
-  
   </div>
 </div>
+
+<!-- Contact -->
+<section id="contact"> 
+  <div class="container">
+      <form id="contact-form">
+          <h1>Contact <span>Form</span></h1>
+          <input type="text" id="Name" name="Name" placeholder="Name" required>
+          <input type="email" id="Email_Id" name="Email_Id" placeholder="Email" required>
+          <h4>Type Your Message Here...</h4>
+          <textarea name="Message" required></textarea>
+          <input type="submit" value="Send" id="button">
+      </form>  
+      <p id="msg"></p>
+  </div>
+</section>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     // Inisialisasi Carousel
@@ -250,6 +286,10 @@
     });
   });
 </script>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+<script src="contact.js"></script>
+
 
 </body>
 </html>
